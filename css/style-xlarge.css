@@ -1,0 +1,19 @@
+/* 
+	author: "Kumar Shashwat"
+	Company: "DevIt onsultancy
+	Website: "https://devitconsultancy.com/#services"
+	Subject to Copyright
+*/
+
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 12pt;
+	}
+
+/* Banner */
+
+	#banner {
+		padding: 9em 0;
+	}
