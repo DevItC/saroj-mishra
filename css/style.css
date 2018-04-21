@@ -15,6 +15,7 @@
 		background: #fff;
 		overflow-x: hidden;
 	}
+
 	body, input, select, textarea {
 		color: #555f66;
 		font-family: "Roboto", Helvetica, sans-serif;
@@ -887,8 +888,8 @@
 	}
 
 	#header {
-		background: #000;
-		color: #fff;
+		background: #fff;
+		color: #555f66;
 		cursor: default;
 		height: 3em;
 		left: 0;
@@ -901,7 +902,7 @@
 	}
 
 		#header h1 {
-			color: #fff;
+			color: #666f77;
 			font-weight: 500;
 			height: inherit;
 			left: 1.25em;
@@ -920,15 +921,14 @@
 			height: inherit;
 			line-height: inherit;
 			position: absolute;
-			/* right: 1.25em; */
-			left:25em;
+			right: 1.25em;
 			top: 0;
 			vertical-align: middle;
 		}
 
 			#header nav > ul {
 				list-style: none;
-				margin: 0 ;
+				margin: 0;
 				padding-left: 0;
 			}
 
@@ -945,7 +945,7 @@
 						-o-transition: color 0.2s ease-in-out;
 						-ms-transition: color 0.2s ease-in-out;
 						transition: color 0.2s ease-in-out;
-						color: #fff;
+						color: #555f66;
 						display: inline-block;
 						text-decoration: none;
 					}
